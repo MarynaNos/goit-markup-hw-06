@@ -252,7 +252,7 @@ body {
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     text-align: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
@@ -469,7 +469,7 @@ body {
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
-    line-height: 28px;
+    line-height: 1.55;
     letter-spacing: 0.03em;
     color: #FFFFFF;
 }
@@ -576,7 +576,7 @@ footer {
     margin-bottom: 20px;
     font-weight: 700;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #FFFFFF;
@@ -591,14 +591,14 @@ footer {
     outline: transparent;
     font-weight: 400;
     font-size: 16px;
-    line-height: 20px;
+    line-height: 1.25;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
 .submit-email::placeholder{
     font-weight: 400;
     font-size: 16px;
-    line-height: 20px;
+    line-height: 1.25;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
@@ -620,7 +620,7 @@ footer {
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
-    line-height: 30px; 
+    line-height: 1.88; 
     letter-spacing: 0.06em;
     color: #FFFFFF;
 }
@@ -656,6 +656,7 @@ footer {
     transform: translate(-50%, -50%);
     width: 528px;
     min-height: 581px;
+    padding: 40px;
     background: var(--background-color);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
@@ -677,4 +678,46 @@ footer {
 }
 .btn-close-icon{
     fill: #000000;
+}
+.modal-title{
+    text-align: center;
+    margin-bottom: 12px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.15;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-color);
+}
+.form-group {
+    /* display: flex; */
+}
+.form-field {
+    position: relative; 
+}
+.form-sign {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.01em;
+    color: #757575;
+}
+.form-input {
+    width: 448px;
+    height: 40px;
+    margin-top: 4px;
+    padding-left: 42px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+    outline: transparent;
+}
+.form-input-icon {
+    position: absolute;
+    top: 32px;
+    left: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 18px;
+    height: 18px;
 }
