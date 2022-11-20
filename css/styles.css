@@ -783,7 +783,7 @@ footer {
     gap: 8px;
     margin-bottom: 30px;
 }
-.form-checkbox{
+/* .form-checkbox{
     appearance: none;
     width: 16px;
     height: 15px;
@@ -794,6 +794,19 @@ footer {
 .form-checkbox:checked{
     background-color: var(--active-color);
     border-color: transparent;
+} */
+
+.form-checkbox-icon .unchecked{
+    opacity: 1;
+}
+.form-checkbox:checked + .form-checkbox-icon .unchecked{
+    opacity: 0;
+}
+.form-checkbox-icon .checked{
+    opacity: 0;
+}
+.form-checkbox:checked + .form-checkbox-icon .checked{
+    opacity: 1;
 }
 .form-agreement-text{
     user-select: none;
